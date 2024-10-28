@@ -1,0 +1,33 @@
+body{
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
+.box{
+  align-items: center;
+  text-align: center;
+  padding-top: 10%;
+  padding-left: 35%;
+  display: inline-block;
+  
+}
+select{
+  display: inline-block;
+  height: 50px;
+}
+option{
+  height: 50px;
+  color: blue;
+}
+.bt-search{
+  height: 50px;
+  width: 100px;
+  background-color: rgb(177, 233, 233);
+  color: black;
+  text-size-adjust: 30px;
+}
+.bt-search:hover{
+  background-color: rgb(55, 77, 70);
+  border-radius: 30px;
+  animation: ease-in 1s infinite;
+  cursor: pointer;
+}
